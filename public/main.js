@@ -90,7 +90,7 @@ async function sendFlips({ url, formData }) {
 // Extract the form data from the FormData object
 	const plainFormData = Object.fromEntries(formData.entries());
 // Turn the FormData into JSON
-	const formDataJson = JSON.stringify(plainFormData);
+	const formDataJson = JSON.stringify(plainFormData); 
 // Show the console what is going to be sent in the API message body
 	console.log(formDataJson);
 // Set up the request object for fetch()
