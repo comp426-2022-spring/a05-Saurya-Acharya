@@ -1,37 +1,26 @@
 {
-  "name": "a05",
-  "version": "0.5.0",
-  "description": "Coinserver API that also serves a single page HTML/CSS/JS browser-based interface.",
+  "name": "a05-saurya-acharya",
+  "version": "1.0.0",
+  "description": "[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7732445&assignment_repo_type=AssignmentRepo) # a05 Human Interface",
   "main": "index.js",
   "scripts": {
-    "test": "npx nodemon index.js --port=5000 --debug",
-    "start": "node index.js"
+    "test": "nodemon server.js --port=5000 --debug"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/comp426-2022-spring/a05-johnmar3.git"
+    "url": "git+https://github.com/comp426-2022-spring/a05-Saurya-Acharya.git"
   },
-  "keywords": [
-    "coin",
-    "flip",
-    "chance",
-    "game",
-    "heads",
-    "tails",
-    "coinserver",
-    "API"
-  ],
-  "author": "YOU",
+  "author": "Saurya-Acharya",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/comp426-2022-spring/a05-johnmar3/issues"
+    "url": "https://github.com/comp426-2022-spring/a05-Saurya-Acharya/issues"
   },
-  "homepage": "https://github.com/comp426-2022-spring/a05-johnmar3#readme",
+  "homepage": "https://github.com/comp426-2022-spring/a05-Saurya-Acharya#readme",
   "dependencies": {
     "better-sqlite3": "^7.5.1",
-    "express": "^4.17.3",
+    "express": "^4.18.0",
     "minimist": "^1.2.6",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.16"
   }
 }
