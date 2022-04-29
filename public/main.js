@@ -120,7 +120,7 @@ function homeNav() {
   document.getElementById("single").className = "inactive";
   document.getElementById("multinav").className = "";
   document.getElementById("multi").className = "inactive";
-  document.getElementById("guessnav").className = "";
+  document.getElementById("guessnav").className = ""; 
   document.getElementById("guesscoin").className = "inactive";
 }
 function singleNav() { 
