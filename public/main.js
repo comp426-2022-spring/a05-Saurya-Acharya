@@ -150,7 +150,7 @@ function guessNav() {
   document.getElementById("single").className = "inactive";
   document.getElementById("multinav").className = "";
   document.getElementById("multi").className = "inactive";
-  document.getElementById("guessnav").className = "active";
+  document.getElementById("guessnav").className = "active"; 
   document.getElementById("guesscoin").className = "active";
 } 
 // Make a list of coin images
