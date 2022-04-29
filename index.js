@@ -7,7 +7,7 @@ const db = require("./database.js");
 const morgan = require('morgan');
 const args = require('minimist')(process.argv.slice(2))
 const fs = require('fs')
-const md5 = require('md5')
+app.use(express.json());
 
 const help = (`
 server.js [options]
