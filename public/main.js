@@ -116,7 +116,7 @@ async function sendFlips({ url, formData }) {
 function homeNav() {
   document.getElementById("homenav").className = "active";
   document.getElementById("home").className = "active";
-  document.getElementById("singlenav").className = "";
+  document.getElementById("singlenav").className = ""; 
   document.getElementById("single").className = "inactive";
   document.getElementById("multinav").className = "";
   document.getElementById("multi").className = "inactive";
