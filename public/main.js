@@ -125,7 +125,7 @@ function homeNav() {
 }
 function singleNav() { 
   document.getElementById("homenav").className = "";
-  document.getElementById("home").className = "inactive";
+  document.getElementById("home").className = "inactive"; 
   document.getElementById("singlenav").className = "active";
   document.getElementById("single").className = "active";
   document.getElementById("multinav").className = "";
