@@ -4,7 +4,7 @@ const http = require('http')
 const express = require("express")
 const app = express()
 const db = require("./src/services/database");
-const morgan = require('morgan');
+const morgan = require('morgan'); 
 const args = require('minimist')(process.argv.slice(2))
 const fs = require('fs')
 app.use(express.json());
