@@ -14,7 +14,7 @@ async function flipCoin() {
 // This receives the response as JSON
   		    .then(function(response) { 
     		    return response.json();
-  		      })
+  		      }) 
 // This processes the JSON into DOM calls that replace the existing corresponding elements in index.html 
 			    .then(function(result) {
 				    console.log(result);
