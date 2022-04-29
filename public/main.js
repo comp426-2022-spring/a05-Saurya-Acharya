@@ -123,7 +123,7 @@ function homeNav() {
   document.getElementById("guessnav").className = "";
   document.getElementById("guesscoin").className = "inactive";
 }
-function singleNav() {
+function singleNav() { 
   document.getElementById("homenav").className = "";
   document.getElementById("home").className = "inactive";
   document.getElementById("singlenav").className = "active";
