@@ -3,7 +3,7 @@ const http = require('http')
 // Require Express.js
 const express = require("express")
 const app = express()
-const db = require("./database.js");
+const db = require("database.js");
 const morgan = require('morgan');
 const args = require('minimist')(process.argv.slice(2))
 const fs = require('fs')
