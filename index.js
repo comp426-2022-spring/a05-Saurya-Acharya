@@ -41,8 +41,13 @@ const server = app.listen(port, () => {
 });
 
 if (log == 'true') {
-  const writeStream = fs.createWriteStream('access.log', { flags: 'a' });
-  app.use(morgan('combined', { stream: writeStream }));
+    const logdir = './log/';
+
+    if (!fs.existsSync(logdir)){
+        fs.mkdirSync(logdir);
+    }
+    const writeStream = fs.createWriteStream('access.log', { flags: 'a' });
+    app.use(morgan('combined', { stream: writeStream }));
 } 
 
 app.use( (req, res, next) => {
@@ -79,6 +84,8 @@ if (debug){
     throw new Error("Error test successful.")
   })
 }
+
+app.use(express.static('./public'))
 
 //---> If things break
 
