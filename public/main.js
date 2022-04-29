@@ -144,7 +144,7 @@ function multiNav() {
   document.getElementById("guesscoin").className = "inactive";
 }
 function guessNav() {
-  document.getElementById("homenav").className = ""; 
+  document.getElementById("homenav").className = "";  
   document.getElementById("home").className = "inactive";
   document.getElementById("singlenav").className = "";
   document.getElementById("single").className = "inactive";
