@@ -56,7 +56,7 @@ async function flipCoins(event) {
 }
 // Guess a coin flip by making a selection and pressing the button.
 // This uses a form in div#guesscoin with a selector to input the value to be sent to the API.
-const call = document.getElementById("call")
+const call = document.getElementById("call") 
 // Add event listener for coins form in div#guesscoin
 call.addEventListener("submit", flipCall)
 // Create the submit handler (just like before for div#multi.
