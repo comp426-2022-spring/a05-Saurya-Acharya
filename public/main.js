@@ -151,7 +151,7 @@ function guessNav() {
   document.getElementById("multinav").className = "";
   document.getElementById("multi").className = "inactive";
   document.getElementById("guessnav").className = "active"; 
-  document.getElementById("guesscoin").className = "active";
+  document.getElementById("guesscoin").className = "active"; 
 } 
 // Make a list of coin images
 // This function takes an array of coin flip results and turns them into list elements with corresponding images.
