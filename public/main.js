@@ -10,7 +10,7 @@ async function flipCoin() {
 // DOM knows what the URI is so that we don't have to hard code it.
     const url = document.baseURI+endpoint
 // This sends a GET request to the API endpoint and waits for a response
-    await fetch(url)
+    await fetch(url) 
 // This receives the response as JSON
   		    .then(function(response) {
     		    return response.json();
