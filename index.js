@@ -22,7 +22,7 @@ server.js [options]
   --help	Return this message and exit.
 `)
 
-if (args.help || args.h) {
+if (args.help || args.h) { 
     console.log(help);
     process.exit(0);
 }
