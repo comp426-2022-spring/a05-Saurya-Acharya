@@ -106,7 +106,7 @@ async function sendFlips({ url, formData }) {
 	const response = await fetch(url, options);
 // Pass the response back to the event handler
 	return response.json()
-}
+} 
 
 // Navigation Buttons
 // This is EXTREMELY rudimentary, but shows you what is happening very clearly when each button is pressed.
