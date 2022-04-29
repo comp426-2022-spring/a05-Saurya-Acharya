@@ -12,7 +12,7 @@ async function flipCoin() {
 // This sends a GET request to the API endpoint and waits for a response
     await fetch(url) 
 // This receives the response as JSON
-  		    .then(function(response) {
+  		    .then(function(response) { 
     		    return response.json();
   		      })
 // This processes the JSON into DOM calls that replace the existing corresponding elements in index.html 
