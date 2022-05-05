@@ -1,4 +1,3 @@
-// Put your database code here
 const database = require('better-sqlite3')
 
 const fs = require('fs');
